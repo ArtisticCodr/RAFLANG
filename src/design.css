@@ -1,0 +1,129 @@
+.tab-pane .tab-header-area .tab-header-background {
+   -fx-background-color: #afd0ff;
+}
+
+.tab{
+    -fx-font-size: 15.0px;
+    -fx-background-color: #e0edff;
+}
+
+.tab-pane .tab-header-area {
+    -fx-padding: 10.0 0.0 -3.0 1.0;
+}
+
+.tab:selected{
+    -fx-focus-color: transparent;
+    -fx-background-color: #ffffff;
+}
+
+.tab:selected .tab-label { 
+    -fx-alignment: CENTER;
+}
+
+.button
+ {
+    -fx-background-color: transparent;
+ }
+ 
+ 
+ .button:hover 
+{
+  -fx-background-color: lightblue;
+} 
+
+.button:pressed
+{
+  -fx-background-color: #4286f4;
+}
+
+
+.tool-bar {
+	 -light-black: #ffffff;
+    -dark-highlight: rgb(87.0, 89.0, 92.0);
+    -dark-black: #afd0ff;
+    -darkest-black: #ffffff;
+    -mid-gray: rgb(216.0, 222.0, 227.0);
+    
+    -fx-base: -dark-black;
+    -fx-background-color:
+        linear-gradient(to bottom, -light-black 2.0%, -dark-black 98.0%);
+        
+    -fx-effect: dropshadow(two-pass-box,black,5.0,0.2,0.0,0.0);
+}
+
+.text-area {
+	-fx-font-size: 15.0px;
+	
+	-fx-background-insets: 0.0;
+    -fx-background-color: transparent, white, transparent, white;
+    -fx-background-radius: 0.0, 0.0, 0.0, 0.0;
+    
+    -fx-background-color: #afd0ff;
+
+}
+
+.text-area .content {
+    -fx-background-color: transparent, white, transparent, white;
+}
+
+.text-area:focused .content {
+    -fx-background-color: transparent, white, transparent, white;
+}
+
+
+.lineno{
+	-fx-background-color: #e0edff;
+}
+
+
+.split-pane > .split-pane-divider {  
+    -fx-padding: 0.0 0.075em 0.0 0.075em;  
+}
+
+
+
+.keyword {
+    -fx-fill: #4286f4;
+    -fx-font-weight: bold;
+}
+.semicolon {
+    -fx-font-weight: bold;
+}
+.paren {
+    -fx-fill: firebrick;
+    -fx-font-weight: bold;
+}
+.bracket {
+    -fx-fill: darkgreen;
+    -fx-font-weight: bold;
+}
+.brace {
+    -fx-fill: teal;
+    -fx-font-weight: bold;
+}
+.string {
+    -fx-fill: firebrick;
+    -fx-font-weight: bold;
+}
+
+.comment {
+	-fx-fill: cadetblue;
+}
+
+#input   .paragraph-box:has-caret {
+    -fx-background-color: #f2f9fc;
+}
+
+.green { 
+	-fx-fill: green;
+}
+
+.red { 
+	-fx-fill: red;
+}
+
+.black { -fx-fill: black; }
+
+.blue { -fx-fill: blue; }
+
+

@@ -1,0 +1,11 @@
+learn [stdio.rl]
+
+[+] opening
+{	
+	[+] y = << 2 1 - << 1 1 +;
+	toscreen(y, "\n");
+	
+	inject[D:/primer.rl];
+		
+	give: 0;
+}

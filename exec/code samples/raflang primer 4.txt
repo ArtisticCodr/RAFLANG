@@ -1,0 +1,19 @@
+learn [stdio.rl]
+
+[+] opening
+{	
+	[+] x1 = 1;
+	toscreen("tooscreen ",x1,"\n");
+	[+] x2 = 2;
+	toscreen("tooscreen ",x2,"\n");
+	[+] x3 = 3;
+	toscreen("tooscreen ",x3,"\n");
+	[+] x4 = 4;
+	toscreen("tooscreen ",x4,"\n");
+	[+] x5 = 5;
+	toscreen("tooscreen ",x5,"\n");
+	[+] x6 = 6;
+	toscreen("tooscreen ",x6, "\n");
+		
+	give: 0;
+}

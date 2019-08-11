@@ -1,0 +1,51 @@
+learn [stdio.rl]
+
+[+] func: min, [+] a, [+] b :cunf{
+	[+] x;
+
+	if a =<= b fi
+		x = a;
+	fifi
+		x = b;
+	
+	give: x;
+}
+
+[~] func: merge, [~] x, [~] y :cunf{
+	give: x y +;
+}
+
+
+[~] func: mergeNtimes, [~] x, [~] y, [~] z :cunf{
+	[+] i = 0; 
+	[~] s = "";
+	from i repeatto z:
+		s += x y +;
+	
+	give: s;
+}
+
+
+
+[+] opening
+{	
+	[+] br1 = 2 * 5 3 + 12 -3+ 10 +;
+	toscreen("broj1 : ", br1, "\n");
+	
+	[+.+] br2 = (2 * 5 3 +) 12 -3+ 10 + 2.2+;
+	toscreen("broj2: ", br2, "\n");
+
+	
+	[+] x = 80, y = 3;
+	[+] minimum = min(x, y);
+	toscreen("minimum(", x, ",", y, "): ", minimum, "\n");
+	toscreen("minimum(", br1 10 +, ",", br2, "): ", min(br1 10 +, br2), "\n");
+
+
+	[~] t = mergeNtimes("hello", " world ", 3);
+	toscreen(t, "\n");
+	toscreen(mergeNtimes("hello", " world ", minimum));
+	
+	
+	give: 0;
+}

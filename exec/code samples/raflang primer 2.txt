@@ -1,0 +1,25 @@
+learn [stdio.rl]
+
+[+] opening
+{	
+	[+] x = << 2 1 - << 1 1 +;
+	toscreen(x, "\n");
+	
+	while x =>= -4 elihw{
+		toscreen("ispis", "\n");
+		
+		if x =<= 1 fi{
+			x--;
+			skiprest;
+		}
+	
+		toscreen("iteracija", "\n");
+		x--;
+	
+	}
+	
+	
+	
+	
+	give: 0;
+}

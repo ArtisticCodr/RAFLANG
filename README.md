@@ -1,5 +1,5 @@
 # RAFLANG
-This is an interpreter that is used with my own grammar (RAFLANG).<br>
+This is an interpreter that is used with my own grammar (RAFLANG). <br>
 RAFLANG is a programming language that beginners can use in programming,
 it therefore contains all the basic functionalities of each programming language:<br>
 
